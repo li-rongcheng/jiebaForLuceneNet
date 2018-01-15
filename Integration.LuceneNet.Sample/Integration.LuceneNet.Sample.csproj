@@ -66,13 +66,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Resources\char_state_tab.json" />
+    <None Include="bin\Resources\pos_prob_emit.json" />
+    <None Include="bin\Resources\pos_prob_start.json" />
+    <None Include="bin\Resources\pos_prob_trans.json" />
+    <None Include="bin\Resources\prob_emit.json" />
+    <None Include="bin\Resources\prob_trans.json" />
     <None Include="packages.config" />
+    <None Include="Resources\char_state_tab.json" />
+    <None Include="Resources\pos_prob_emit.json" />
+    <None Include="Resources\pos_prob_start.json" />
+    <None Include="Resources\pos_prob_trans.json" />
+    <None Include="Resources\prob_emit.json" />
+    <None Include="Resources\prob_trans.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Integration.LuceneNet\Integration.LuceneNet.csproj">
       <Project>{F2744A8B-08B2-4208-9051-2AF4E8841E92}</Project>
       <Name>Integration.LuceneNet</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Resources\cn_synonym.txt" />
+    <Content Include="bin\Resources\dict.txt" />
+    <Content Include="bin\Resources\idf.txt" />
+    <Content Include="bin\Resources\stopwords.txt" />
+    <Content Include="Resources\cn_synonym.txt" />
+    <Content Include="Resources\dict.txt" />
+    <Content Include="Resources\idf.txt" />
+    <Content Include="Resources\stopwords.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
